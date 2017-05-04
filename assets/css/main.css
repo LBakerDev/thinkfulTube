@@ -1,0 +1,41 @@
+body {
+    line-height: 1px;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 15px;
+}
+
+.js-search-form{
+    margin-top: 2px;
+}
+
+#youtubeResults ul{ 
+    overflow: hidden;
+    margin-top: 10px;
+    list-style: none;
+}
+
+#youtubeResults li{
+    margin-bottom: 24px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#youtubeResults li img{
+    display: block;
+    max-width: 100%
+}
+
+#youtubeResults li p {
+    font-size:14px;
+    font-weight: 600;
+}
